@@ -32,8 +32,9 @@ function App() {
         },
     ];
     return (
-        <div className='App'>
-            <Table />
+        <div className='App' >
+            <h1>Data Student</h1>
+            <Table students = {students}/>
         </div>
     );
 }

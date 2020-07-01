@@ -4,10 +4,10 @@ function TableHead() {
     return (
         <thead>
             <tr>
-                <th>Nama</th>
-                <th>Umur</th>
-                <th>Jenis Kelamin</th>
-                <th>Alamat</th>
+                <th style={{border:'1px solid black'}}>Nama</th>
+                <th style={{border:'1px solid black'}}>Umur</th>
+                <th style={{border:'1px solid black'}}>Jenis Kelamin</th>
+                <th style={{border:'1px solid black'}}> Alamat</th>
             </tr>
         </thead>
     );

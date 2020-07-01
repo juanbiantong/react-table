@@ -1,13 +1,15 @@
 import React from 'react';
 
-function TableBody() {
+
+
+function TableBody(props) {
     return (
         <tbody>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td style={{border:'1px solid black'}}>{props.student.name}</td>
+                <td style={{border:'1px solid black'}}>{props.student.age}</td>
+                <td style={{border:'1px solid black'}}>{props.student.sex}</td>
+                <td style={{border:'1px solid black'}}>{props.student.address}</td>
             </tr>
         </tbody>
     );
